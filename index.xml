@@ -1,13 +1,40 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
+<!-- <?xml-stylesheet type="text/css" href="style.css"?> -->
+
+<!-- This is an Comment -->
+
 <root>
-    <child1>Hello</child1>
-    <child2>Hello</child2>
-    <branch1>
-        <child3>hello</child3>
-        <child4>hello</child4>
-        <branch2>
-            <child5>hello</child5>
-            <child6>hello</child6>
-        </branch2>
-    </branch1>
+    <message>XML Example</message>
+
+    <!-- Entities -->
+
+    <text>is 24 &lt; 25 ?</text>
+    <text>is 24 &gt; 25 ?</text>
+    <text>one &amp; two</text>
+    <text>&quot;Yeshwanth&quot;</text>
+    <text>&apos;Yeshu&apos;</text>
+
+    <!-- Semester Tree -->
+
+    <semester>
+        <First>
+            <sub1>Operating System</sub1>
+            <sub2>Mathametics</sub2>
+            <sub3>Data Structures</sub3>
+        </First>
+        <Second>
+            <sub1>Mobile Application</sub1>
+            <sub2>Web Development</sub2>
+            <sub3>Java</sub3>
+        </Second>
+        <Third>
+            <sub1>Advance Java</sub1>
+            <sub2>Python</sub2>
+            <sub3>Cloud Computing</sub3>
+        </Third>
+        <Fourth>
+            <sub1>NA</sub1>
+            <sub2>NA</sub2>
+        </Fourth>
+    </semester>
 </root>

@@ -1,0 +1,28 @@
+Xpath's for the index.html page (Practice)
+
+Absolute Paths
+1. Selecting HTML tag
+    /html
+
+2. Selecting Body tag
+    /html/body
+
+3. Selecting h1
+    /html/body/h1
+
+
+Relative Paths
+
+//form - Form tag
+
+//form[@class='User_Form'] -  Form using Attribute Class
+
+
+//form[@class='User_Form']/input[@id='text1']
+//input[@id='text1']
+//input[@type='text']                                        - input tag using its Attribute
+//input[@type='text'][1]
+//input[@placeholder='Enter Your Name']
+
+
+//br[1]
